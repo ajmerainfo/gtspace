@@ -17,7 +17,7 @@ namespace gtspace.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Response.Write("用Google host 来进行源代码管理 好啊. 开源也很好啊. 希望所有的项目都开源啊. by zwc");
         }
     }
 }
