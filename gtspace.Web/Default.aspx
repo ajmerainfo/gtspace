@@ -4,14 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>个人主页系统</title>
+    <title>主页</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-    <u>Hello</u>
-    <h1>Powered by gteam.</h1>
-    </div>
-    </form>
+    <h1>这个页面不应该显示任何内容</h1>
 </body>
 </html>
