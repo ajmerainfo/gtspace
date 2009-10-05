@@ -56,6 +56,12 @@
   <ItemGroup>
     <Content Include="通用类.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\gtspace.Entity\gtspace.Entity.csproj">
+      <Project>{A6D15EC6-BF3A-4457-8F73-9DE5E3F942D0}</Project>
+      <Name>gtspace.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

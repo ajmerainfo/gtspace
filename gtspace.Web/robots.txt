@@ -1,0 +1,5 @@
+﻿User-agent: *
+Disallow: /Admin/
+Disallow: /Install/
+Disallow: /Log/
+Disallow: /bin/

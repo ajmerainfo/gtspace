@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Glassesol.Common
+namespace gtspace.Common
 {
     /// <summary>
     /// 前台JavaScript帮助器, 提供JavaScript格式化输出
