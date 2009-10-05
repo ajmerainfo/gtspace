@@ -55,6 +55,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Web.config" />
+    <Content Include="用户接口层.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">

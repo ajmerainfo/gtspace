@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gtspace.Web", "gtspace.Web\gtspace.Web.csproj", "{2818F2AB-0120-431D-AC32-E86548AF47FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gtspace.Data", "gtspace.Data\gtspace.Data.csproj", "{C356F7E2-23D0-4A3E-88DB-E70B9475B14C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gtspace.Common", "gtspace.Common\gtspace.Common.csproj", "{9915FE04-94DE-4612-8900-9EAAAE5BF027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{2818F2AB-0120-431D-AC32-E86548AF47FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2818F2AB-0120-431D-AC32-E86548AF47FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2818F2AB-0120-431D-AC32-E86548AF47FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C356F7E2-23D0-4A3E-88DB-E70B9475B14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C356F7E2-23D0-4A3E-88DB-E70B9475B14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C356F7E2-23D0-4A3E-88DB-E70B9475B14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C356F7E2-23D0-4A3E-88DB-E70B9475B14C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9915FE04-94DE-4612-8900-9EAAAE5BF027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9915FE04-94DE-4612-8900-9EAAAE5BF027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9915FE04-94DE-4612-8900-9EAAAE5BF027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9915FE04-94DE-4612-8900-9EAAAE5BF027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
