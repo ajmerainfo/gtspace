@@ -53,7 +53,21 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\后台管理.txt" />
+    <Content Include="Codes\一些基于UI的类.txt" />
     <Content Include="Default.aspx" />
+    <Content Include="DLL\重用的类库.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="Install\是否可以免安装.txt" />
+    <Content Include="Log\错误日志.txt" />
+    <Content Include="Templates\Default\Blocks\页面块.txt" />
+    <Content Include="Templates\Default\Images\Html里直接调用的图片.txt" />
+    <Content Include="Templates\Default\Scripts\Javascript文件.txt" />
+    <Content Include="Templates\Default\Styles\Images\样式表调用的图片.txt" />
+    <Content Include="Templates\Default\Styles\样式.txt" />
+    <Content Include="Templates\Default\默认模板.txt" />
+    <Content Include="Templates\前台模板.txt" />
+    <Content Include="Upload\上传的文件.txt" />
     <Content Include="Web.config" />
     <Content Include="用户接口层.txt" />
   </ItemGroup>
@@ -64,6 +78,9 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
