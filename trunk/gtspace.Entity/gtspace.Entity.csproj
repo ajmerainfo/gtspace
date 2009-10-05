@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9915FE04-94DE-4612-8900-9EAAAE5BF027}</ProjectGuid>
+    <ProjectGuid>{A6D15EC6-BF3A-4457-8F73-9DE5E3F942D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>gtspace.Common</RootNamespace>
-    <AssemblyName>gtspace.Common</AssemblyName>
+    <RootNamespace>gtspace.Entity</RootNamespace>
+    <AssemblyName>gtspace.Entity</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,14 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JavaScriptHelper.cs" />
-    <Compile Include="LogHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Settings.cs" />
-    <Compile Include="UrlRewriter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="通用类.txt" />
+    <Content Include="不是数据表实体.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
