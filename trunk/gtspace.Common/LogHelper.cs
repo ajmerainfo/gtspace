@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace Glassesol.Common
+namespace gtspace.Common
 {
     /// <summary>
     /// 日志生成类, 用于格式话编写日志文件
