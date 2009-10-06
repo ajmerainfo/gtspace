@@ -42,7 +42,7 @@ Templates目录放置的是所有的前台模板页面, 每个目录一个模板
 
 =相对于Glassesol, gtspace的变动=
 
-# 取消了Business层, 将Business层的工作都搬到Web层里去了
+  # 取消了Business层, 将Business层的工作都搬到Web层里去了
 
 # 在Common层里取消了地址生成器AddressGenerator, 所以制作前台页面的时候就直接写地址了, 而不是通过地址生成器生成
 
