@@ -19,5 +19,10 @@ namespace gtspace.Plugin.Demo1
 		{
 
 		}
+
+		protected void Button1_Click(object sender, EventArgs e)
+		{
+			TextBox3.Text = (int.Parse(TextBox1.Text.Trim()) + int.Parse(TextBox2.Text.Trim())).ToString();
+		}
 	}
 }
